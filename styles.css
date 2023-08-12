@@ -55,9 +55,13 @@ nav {
 
 h4 {
     background: blue;
-    color:white;
+    color:black;
     display: inline-block;
     margin: 10px 10px 10px 30px;
     padding: 10px 30px;
 
+}
+
+body{
+    font-family: 'Inter', sans-serif;
 }
