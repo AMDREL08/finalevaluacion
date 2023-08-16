@@ -8,11 +8,16 @@ h1{
 }
 
 .btn {
-    background-color: blue;
+    display: inline-block;
+    background-color:blue;
     color: white;
-    text-align:center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
     cursor: pointer;
-    margin: 10px 0px 0px 20px;
+    margin: 25px;
+    padding: 25px;;
 }
 
 .btn:hover {
@@ -20,48 +25,31 @@ h1{
 }
 
 .btn2{
-    background-color: blue;
+    display: inline-block;
+    background-color:blue;
     color: white;
-    text-align:center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
     cursor: pointer;
-    margin: 10px 0px 0px 20px;
+    margin: 25px;
+    padding: 25px;;
 }
 
 .btn2:hover {
     background-color: black;
 }
 
-
-.nav-enlace{
-    display: inline-block;
-    background:blue;
-    color: #fff;
-    padding: 30px 70px;
-    text-decoration: none;
-}
-
-.nav-enlace:hover{
-    background: rgb(0, 0, 0);
-}
-
-nav {
-    background: rgb(158, 158, 158);
-    padding: 80px;
-    margin: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-
 h4 {
-    background: blue;
+    background: rgb(0, 89, 190);
     color:black;
     display: inline-block;
-    margin: 10px 10px 10px 30px;
+    margin: 10px 20px 30px 30px;
     padding: 10px 30px;
 
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Ruwudu', serif;
 }
