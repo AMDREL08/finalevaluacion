@@ -41,15 +41,6 @@ h1{
     background-color: black;
 }
 
-h4 {
-    background: rgb(0, 89, 190);
-    color:black;
-    display: inline-block;
-    margin: 10px 20px 30px 30px;
-    padding: 10px 30px;
-
-}
-
 body{
     font-family: 'Ruwudu', serif;
 }
