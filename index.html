@@ -14,6 +14,52 @@
 
     <a class="btn" href="/2pindex.html">Dashboard</a>
     <a class="btn2" href="/Hero.html">hero</a>
-      
+
+<button id="myButton">Haz clic en mí</button>
+
+<script>
+    
+    function onClickHandler() {
+        console.log("Se hizo clic en el botón");
+    }
+
+    
+    function onMouseDownHandler() {
+        console.log("Mouse presionado sobre el botón");
+    }
+
+    
+    function onMouseMoveHandler() {
+        console.log("Mouse moviéndose sobre el botón");
+    }
+
+    
+    function onMouseOutHandler() {
+        console.log("Mouse salió del área del botón");
+    }
+
+  
+    function onMouseOverHandler() {
+        console.log("Mouse sobre el botón");
+    }
+
+   
+    function onMouseUpHandler() {
+        console.log("Mouse liberado sobre el botón");
+    }
+
+   
+    const button = document.getElementById('myButton');
+
+   
+    button.addEventListener('click', onClickHandler);
+    button.addEventListener('mousedown', onMouseDownHandler);
+    button.addEventListener('mousemove', onMouseMoveHandler);
+    button.addEventListener('mouseout', onMouseOutHandler);
+    button.addEventListener('mouseover', onMouseOverHandler);
+    button.addEventListener('mouseup', onMouseUpHandler);
+</script>
+
+    
 </body>
 </html>
